@@ -1,57 +1,57 @@
 import CountryCard from "./CountryCard";
-
+import a1 from "/src/assets/images/6-4-1030x577.jpg";
+import a2 from "/src/assets/images/Exterior.jpg";
+import a3 from "/src/assets/images/HOREV-Medical-Center-Tashkent.jpg";
+import a4 from "/src/assets/images/hh.jpg";
+import a5 from "/src/assets/images/kostanay-hospital-07.jpg";
+import a6 from "/src/assets/images/spmc.jpg";
+import a7 from "/src/assets/images/st.webp";
 export default function TopCountry() {
   const countries = [
     {
       name: "Russia",
-      image:
-        "https://images.unsplash.com/photo-1513326738677-b964603b136d?auto=format&fit=crop&q=80&w=2000",
+      image: a1,
       fee: "$4,000 - $12,000/year",
       duration: "6 years",
     },
     {
       name: "Uzbekistan",
-      image:
-        "https://images.unsplash.com/photo-1528644495100-e7f1cd363796?auto=format&fit=crop&q=80&w=2000",
+      image: a2,
       fee: "$5,000 - $7,000/year",
       duration: "5 years",
     },
     {
       name: "Kazakhstan",
-      image:
-        "https://images.unsplash.com/photo-1558588942-930faae5a389?auto=format&fit=crop&q=80&w=2000",
+      image: a3,
       fee: "$4,500 - $8,000/year",
       duration: "5 years",
     },
     {
       name: "Philippines",
-      image:
-        "https://images.unsplash.com/photo-1518439179742-2bfd6565d1c4?auto=format&fit=crop&q=80&w=2000",
-      fee: "$6,000 - $10,000/year",
+      image: a4,
+      fee: "$4,000 - $6,000/year",
       duration: "5.5 years",
     },
     {
       name: "Georgia",
-      image:
-        "https://images.unsplash.com/photo-1565008576549-57569a49371d?auto=format&fit=crop&q=80&w=2000",
-      fee: "$5,500 - $8,500/year",
+      image: a5,
+      fee: "$4,000 - $6,000/year",
       duration: "6 years",
     },
     {
       name: "Kyrgyzstan",
-      image:
-        "https://images.unsplash.com/photo-1569531955323-33c6b2dca44b?auto=format&fit=crop&q=80&w=2000",
+      image: a6,
       fee: "$4,000 - $6,000/year",
       duration: "5 years",
     },
     {
       name: "Egypt",
-      image:
-        "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?auto=format&fit=crop&q=80&w=2000",
+      image: a7,
       fee: "$5,000 - $9,000/year",
       duration: "5.5 years",
     },
   ];
+
   return (
     <section
       id="countries"

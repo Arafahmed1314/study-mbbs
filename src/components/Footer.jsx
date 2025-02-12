@@ -55,15 +55,15 @@ export default function Footer() {
               Contact Us
             </h4>
             <ul className="space-y-2">
-              <li className="text-gray-400">Email: info@studymbbs.com</li>
-              <li className="text-gray-400">Phone: +1 234 567 890</li>
-              <li className="text-gray-400">Address: 123 Education Street</li>
+              <li className="text-gray-400">Email: nayemhasan1314@gmail.com</li>
+              <li className="text-gray-400">Phone: +8801923531755</li>
+              <li className="text-gray-400">Address: Dhaka,Bangladesh</li>
             </ul>
           </div>
         </div>
         <div className="text-center">
           <p className="text-gray-500">
-            © 2024 Study MBBS Abroad. All rights reserved.
+            © 2025 Study MBBS Abroad. All rights reserved.
           </p>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 import { useLocation } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Benefits from "./components/Benefits";

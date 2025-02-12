@@ -5,7 +5,7 @@ import Menu from "./svgIcon/Menu";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
+  const option = ["Benefits", "Country", "Process", "Apply"];
   return (
     <header className="container mx-auto  py-4 shadow-lg fixed top-0 bg-white z-50 w-full px-12">
       <nav className="flex justify-between items-center">
@@ -14,7 +14,7 @@ function Navbar() {
             {" "}
             <img
               className="w-12 rounded-full h-12"
-              src="/src/assets/logo.jpg"
+              src="/public/logo.jpg"
               alt=""
             />
             <h1 className="text-xl font-bold">STUDY MBBS</h1>
@@ -38,21 +38,13 @@ function Navbar() {
               Home
             </Link>
           </li>
-          <li>
-            <Link to="/benefits" className="hover:text-orange-500">
-              Benefits
-            </Link>
-          </li>
-          <li>
-            <Link to="/Country" className="hover:text-orange-500">
-              Country
-            </Link>
-          </li>
-          <li>
-            <Link to="/Process" className="hover:text-orange-500">
-              Process
-            </Link>
-          </li>
+          {option.map((item) => (
+            <li key={item}>
+              <Link to={`${item}`} className="hover:text-orange-500">
+                {item}
+              </Link>
+            </li>
+          ))}
         </ul>
         <div>
           <ul>
@@ -78,33 +70,17 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li>
-              <Link
-                to="/Categories"
-                className="hover:text-orange-500 hover:bg-gray-700 hover:w-full px-24 py-1 rounded-md transition"
-                onClick={() => setIsOpen(false)}
-              >
-                Benefits
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/Recipes"
-                className="hover:text-orange-500 hover:bg-gray-700 hover:w-full px-24 py-1 rounded-md transition"
-                onClick={() => setIsOpen(false)}
-              >
-                Country
-              </Link>
-            </li>
-            <li>
-              <Link
-                to="/Recipes"
-                className="hover:text-orange-500 hover:bg-gray-700 hover:w-full px-24 py-1 rounded-md transition"
-                onClick={() => setIsOpen(false)}
-              >
-                Process
-              </Link>
-            </li>
+            {option.map((item) => (
+              <li key={item}>
+                <Link
+                  to={`${item}`}
+                  className="hover:text-orange-500 hover:bg-gray-700 hover:w-full px-24 py-1 rounded-md transition"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       )}

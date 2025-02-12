@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Hero() {
   return (
     <div className="relative min-h-screen flex items-center">
@@ -26,29 +28,29 @@ export default function Hero() {
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-4">
-                <a
-                  href="#apply"
+                <Link
+                  to="/apply"
                   className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-blue-900 bg-white rounded-xl hover:bg-blue-50 transition-all duration-300 transform hover:scale-105"
                 >
                   Apply Now
-                </a>
-                <a
-                  href="#countries"
-                  className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border-2 border-white/30 rounded-xl hover:bg-white/10 transition-all duration-300"
+                </Link>
+                <Link
+                  to="/country"
+                  className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold  border-2 border-white/30 bg-gray-600 text-white rounded-xl hover:bg-white/10 transition-all duration-300"
                 >
                   Explore Countries
-                </a>
+                </Link>
               </div>
               <div className="grid grid-cols-3 gap-6 pt-8 border-t border-white/20">
-                <div>
+                <div className="bg-gray-900 px-6 py-2 rounded-md">
                   <div className="text-3xl font-bold text-blue-200">7+</div>
                   <div className="text-sm text-blue-100">Countries</div>
                 </div>
-                <div>
+                <div className="bg-gray-900 px-6 py-2 rounded-md">
                   <div className="text-3xl font-bold text-blue-200">100+</div>
                   <div className="text-sm text-blue-100">Universities</div>
                 </div>
-                <div>
+                <div className="bg-gray-900 px-6 py-2 rounded-md">
                   <div className="text-3xl font-bold text-blue-200">10k+</div>
                   <div className="text-sm text-blue-100">Students</div>
                 </div>
@@ -58,7 +60,7 @@ export default function Hero() {
               <div className="relative">
                 <div className="absolute inset-0 bg-blue-500 rounded-full filter blur-3xl opacity-20 animate-pulse"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1638202993928-7d113b8e4559?auto=format&fit=crop&q=80&w=800"
+                  src="/src/assets/images/6-4-1030x577.jpg"
                   alt="Medical Students"
                   className="relative rounded-3xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
                 />
