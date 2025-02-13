@@ -1,9 +1,22 @@
 # Study MBBS Abroad - Web Application
 
+![MBBS Abroad](https://via.placeholder.com/800x200.png?text=Study+MBBS+Abroad)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+[![React.js](https://img.shields.io/badge/React.js-Framework-blue)](https://reactjs.org/)  
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Styling-green)](https://tailwindcss.com/)
 
 ## Overview
 
 This project is a web application designed to provide information about studying MBBS abroad, including details about top countries, benefits, application processes, and more.
+
+## Tracking & Analytics
+
+![Google Analytics](https://via.placeholder.com/200x50.png?text=Google+Analytics)  
+This project integrates **Google Analytics** for tracking user interactions and gathering insights.
+
+![Facebook Pixel](https://via.placeholder.com/200x50.png?text=Facebook+Pixel)  
+**Facebook Pixel** is used to track conversions and optimize ad performance.
 
 ## Tech Stack
 
@@ -31,7 +44,7 @@ Follow the steps below to set up and run the project locally:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Arafahmed1314/study-mbbs.git
+git clone https://github.com/your-github-link/study-mbbs-abroad.git
 ```
 
 ### 2. Navigate into the project folder
@@ -73,7 +86,9 @@ npm start
 
 ## Contributors
 
-- [Md. Naimul Islam](https://github.com/Arafahmed1314)
+- [Your Name](https://github.com/your-github-profile)
 
+## License
 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
