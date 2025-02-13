@@ -49,7 +49,7 @@ function Navbar() {
         <div>
           <ul>
             <li>
-              <Link to="/Login" className="hover:text-orange-500 text-xl">
+              <Link to="/" className="hover:text-orange-500 text-xl">
                 Login
               </Link>
             </li>
