@@ -1,8 +1,8 @@
 # Study MBBS Abroad - Web Application
 
-![MBBS Abroad](https://via.placeholder.com/800x200.png?text=Study+MBBS+Abroad)
+![MBBS Abroad](https://study-mbbs-hxnh.vercel.app/)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+
 [![React.js](https://img.shields.io/badge/React.js-Framework-blue)](https://reactjs.org/)  
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Styling-green)](https://tailwindcss.com/)
 
@@ -44,7 +44,7 @@ Follow the steps below to set up and run the project locally:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-github-link/study-mbbs-abroad.git
+git clone https://github.com/Arafahmed1314/study-mbbs.git
 ```
 
 ### 2. Navigate into the project folder
@@ -86,9 +86,6 @@ npm start
 
 ## Contributors
 
-- [Your Name](https://github.com/your-github-profile)
+- [Md. Naimul Islam](https://github.com/Arafahmed1314)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
